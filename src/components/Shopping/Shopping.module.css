@@ -1,0 +1,56 @@
+.shopping {
+  background-color: #e5c643;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1050px;
+  text-align: center;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 1.27;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: #fffcf8;
+  margin-bottom: 20px;
+}
+.form {
+  width: 574px;
+  height: 87px;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.form ::placeholder {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+  width: 100%;
+}
+.btn {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 1.06;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 8px;
+  width: 161px;
+}

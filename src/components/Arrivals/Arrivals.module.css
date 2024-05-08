@@ -1,0 +1,32 @@
+.arrivals {
+  padding-top: 120px;
+  padding-bottom: 143px;
+}
+.arrivalsHeader {
+  position: relative;
+}
+.arrivalsImg {
+  position: absolute;
+  width: 190px;
+  height: 32px;
+  bottom: -5px;
+  left: 210px;
+}
+.arrivalsTitle_2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.arrivalsHeader {
+  margin-bottom: 100px;
+}
+
+.arrivalsCards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}

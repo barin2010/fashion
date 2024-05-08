@@ -1,0 +1,12 @@
+.brands {
+  background-color: var(--yello-EBD96B);
+  padding: 60px 0 55px;
+}
+
+.brandsList {
+  display: flex;
+  column-gap: 120px;
+  mix-blend-mode: multiply;
+  justify-content: center;
+  align-items: center;
+}

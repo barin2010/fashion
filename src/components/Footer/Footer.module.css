@@ -1,0 +1,71 @@
+.footer {
+  background-color: #000000;
+}
+.wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.social {
+  margin-right: auto;
+}
+
+.socialTitle {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.socialDescription {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  color: #8e8e8e;
+  width: 415px;
+  margin-bottom: 30px;
+}
+.socialList {
+  display: flex;
+  gap: 12px;
+}
+.socialItem {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  border-radius: 15px;
+  background-color: #ebd96b;
+  align-items: center;
+  justify-content: center;
+}
+.socialAbout {
+  display: flex;
+  flex-direction: column;
+}
+.socialHeader {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  color: #d9d9d9;
+  margin-bottom: 30px;
+}
+.socialHeaderList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.socialAbout:not(:last-child) {
+  margin-right: 100px;
+}
+
+.socialHeaderItem {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+.socialHeaderItem a {
+  color: #8e8e8e;
+}

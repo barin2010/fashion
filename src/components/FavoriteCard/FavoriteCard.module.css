@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.wrapper:hover .favoriteCardImg {
+  animation: opacity 0.2s ease-in-out;
+}
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.wrapper:hover .arrowWrapper {
+  animation: slide 0.5s ease-in-out;
+}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -20px;
+  }
+  100% {
+    left: 0;
+  }
+}
+.favoriteCardImg {
+  margin-bottom: 50px;
+}
+.wrapperBox {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapperText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.social {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.56;
+  letter-spacing: -0.04em;
+}
+.explore {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.04em;
+  color: #7f7f7f;
+}
+.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.arrowWrapper {
+  position: relative;
+  cursor: pointer;
+}

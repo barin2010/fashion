@@ -1,0 +1,90 @@
+.content {
+  display: flex;
+  background: linear-gradient(
+    0deg,
+    rgba(224, 195, 64, 1) 0%,
+    rgba(223, 194, 62, 1) 4%,
+    rgba(225, 196, 65, 1) 7%,
+    rgba(227, 199, 67, 1) 10%,
+    rgba(227, 199, 67, 1) 10%,
+    rgba(230, 199, 68, 1) 16%,
+    rgba(231, 200, 69, 1) 20%,
+    rgba(229, 198, 67, 1) 24%,
+    rgba(230, 201, 69, 1) 31%,
+    rgba(227, 199, 67, 1) 37%,
+    rgba(233, 202, 72, 1) 43%,
+    rgba(237, 206, 73, 1) 50%,
+    rgba(240, 212, 76, 1) 57%,
+    rgba(244, 216, 79, 1) 63%,
+    rgba(246, 218, 82, 1) 67%,
+    rgba(247, 219, 83, 1) 74%,
+    rgba(249, 221, 85, 1) 79%,
+    rgba(249, 223, 86, 1) 86%,
+    rgba(250, 225, 87, 1) 93%,
+    rgba(249, 223, 86, 1) 100%
+  );
+}
+.payDayText {
+  width: 666px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.payDayTitle {
+  font-weight: 900;
+  font-size: 112px;
+  line-height: 1.22;
+  margin-bottom: -100px;
+}
+.payDayText {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.44;
+  letter-spacing: -0.02em;
+  margin-top: 30px;
+  position: relative;
+}
+.date {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.44;
+  letter-spacing: 0.02em;
+  margin-bottom: 6px;
+}
+.terms {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.44;
+  letter-spacing: -0.02em;
+  margin-bottom: 30px;
+}
+.btn {
+  width: 265px;
+  height: 95px;
+  border-radius: 8px;
+  background-color: black;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.payDaySpan {
+  position: relative;
+  display: inline-block;
+}
+.payDaySpan span {
+  position: relative;
+}
+
+.payDaySpan::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -12px;
+  bottom: 0;
+  left: -40px;
+  right: -50px;
+  background-color: #ffffff;
+  transform: rotate(-2deg);
+}

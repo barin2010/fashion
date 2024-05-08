@@ -1,0 +1,26 @@
+.favoriteTitle {
+  padding-top: 160px;
+
+  position: relative;
+}
+
+.favoriteText {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: 0.06em;
+  margin-bottom: 80px;
+}
+.decor {
+  position: absolute;
+  bottom: 0;
+  left: 320px;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+.wrapperImg {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}

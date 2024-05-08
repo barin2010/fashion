@@ -1,0 +1,46 @@
+.header {
+  padding: 46px 0 56px;
+}
+.headerRow {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLOgo {
+  display: flex;
+  column-gap: 13px;
+  align-items: center;
+}
+.headerLOgo span {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-transform: uppercase;
+}
+.headerList {
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+
+.headerNav a {
+  color: var(--primary-color-000000);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  line-height: 1.45;
+}
+.headerNavBtn,
+a.headerNavBtn {
+  border-radius: 7px;
+  background-color: var(--primary-color-000000);
+  padding: 13px 22px 17px;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  line-height: 1.45;
+  color: #fefefe;
+}
