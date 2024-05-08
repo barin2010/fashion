@@ -54,5 +54,7 @@
   color: #ffffff;
   background-color: #000000;
   border-radius: 8px;
-  width: 161px;
+  /* width: 161px; */
+  padding-left: 35px;
+  padding-right: 30px;
 }
