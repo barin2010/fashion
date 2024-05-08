@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/fashion/static/css/main.ce420a86.css",
+    "main.js": "/fashion/static/js/main.9fbb6c4e.js",
+    "static/media/header-img.jpg": "/fashion/static/media/header-img.b170d9abff93ace1c025.jpg",
+    "static/media/promo-img.png": "/fashion/static/media/promo-img.1c0415b6c8342db7e25b.png",
+    "static/media/03.png": "/fashion/static/media/03.8401152c071062b5d34c.png",
+    "static/media/04.jpg": "/fashion/static/media/04.6ae527675fdb0ca56c7a.jpg",
+    "static/media/vouchers.png": "/fashion/static/media/vouchers.692d6185bae61d061682.png",
+    "static/media/05.png": "/fashion/static/media/05.a76847d81932d4285b91.png",
+    "static/media/02.png": "/fashion/static/media/02.3ec00b3f30dcb0cf4b60.png",
+    "static/media/01.jpg": "/fashion/static/media/01.4a3fec8151f36af3ebbb.jpg",
+    "static/media/Levis.svg": "/fashion/static/media/Levis.0d6cb95ed9d140bbce3d13aa38eff354.svg",
+    "static/media/Amazon.svg": "/fashion/static/media/Amazon.217323c723b1ce80b4f48f6f9797aec9.svg",
+    "static/media/HM.svg": "/fashion/static/media/HM.fb08d9e0489634330b72bfc181989bc4.svg",
+    "static/media/Shopify.svg": "/fashion/static/media/Shopify.99efc5da465b70481ef02e40c0802632.svg",
+    "static/media/Lacoste.svg": "/fashion/static/media/Lacoste.09843bccbf25358b9356beed43cbabcf.svg",
+    "static/media/Obey.svg": "/fashion/static/media/Obey.cba45e2f53c42702d3d9eb7d4733bd17.svg",
+    "static/media/icon.svg": "/fashion/static/media/icon.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/instagram.svg": "/fashion/static/media/instagram.6ac485a1e29f4990c31bf025ebf08611.svg",
+    "static/media/twitter.svg": "/fashion/static/media/twitter.cf855fc3495f0fc34f0d1d19de8dc7ff.svg",
+    "static/media/in.svg": "/fashion/static/media/in.3e3db72ec234d50f3b1aab9ce047d6b6.svg",
+    "index.html": "/fashion/index.html",
+    "static/media/Arrow.svg": "/fashion/static/media/Arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/fb.svg": "/fashion/static/media/fb.7319920fbf438e8197869dcaedb84a7b.svg",
+    "main.ce420a86.css.map": "/fashion/static/css/main.ce420a86.css.map",
+    "main.9fbb6c4e.js.map": "/fashion/static/js/main.9fbb6c4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce420a86.css",
+    "static/js/main.9fbb6c4e.js"
+  ]
+}
